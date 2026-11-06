@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missão IA - Jogo de Escolhas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="caixa-principal">
+        <h1>Missão Inteligência Artificial</h1>
+        
+        <!-- Tela Inicial -->
+        <div id="tela-inicial" class="ativa">
+            <p>Bem-vindo à sua jornada no mundo da tecnologia. Suas escolhas definirão o futuro da IA. Prepare-se!</p>
+            <button id="btn-iniciar" class="botao">Iniciar Jogo</button>
+        </div>
+
+        <!-- Tela do Jogo -->
+        <div id="caixa-perguntas" class="tela-jogo">
+            <!-- As perguntas serão injetadas aqui via JavaScript -->
+        </div>
+        
+        <div id="caixa-alternativas" class="tela-jogo">
+            <!-- Os botões de alternativas serão injetados aqui via JavaScript -->
+        </div>
+
+        <!-- Tela de Resultado / Reinício -->
+        <div id="caixa-resultado" class="tela-jogo">
+            <p id="texto-resultado"></p>
+            <button id="btn-reiniciar" class="botao">Jogar Novamente</button>
+        </div>
+    </main>
+
+    <!-- Importação do script principal como módulo -->
+    <script type="module" src="script.js"></script>
+</body>
+</html>
